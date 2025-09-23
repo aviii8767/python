@@ -1,4 +1,7 @@
 print("Hello World")
+# Variables and Data types in Python
+# Operators in Python
+# Type conversion and Type casting in Python
 """
 # variable
 var = "Avishkar"
@@ -98,9 +101,9 @@ print("Perimeter: ", 4*side)
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 print("Average: ", (a+b)/2)
-"""
 
 # Q4. write a program to input 2 numbers and print True if a is greater than or equal to b, if not print False.
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 print(a >= b)
+"""
