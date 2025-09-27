@@ -299,9 +299,9 @@ else:
 # 3.WAP to count the no. of student with the "A" grade in the following tuple
 grade = ("c","D","A","A","B","a","A")
 
-print(grade.count("A")) # 3 case sensitive
+print(grade.count("A")) # 3 -> case sensitive
 
 # 4. store the above values in a list and sort them from "A" to "D".
 grade = ["C","D","A","A","B","a","A"]
 grade.sort()
-print(grade)
+print(grade) # ['A', 'A', 'A', 'B', 'C', 'D', 'a']

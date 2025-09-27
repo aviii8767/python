@@ -154,6 +154,7 @@ word_dict = {"table" : ("a piece of furniture", "list of facts & figures"), "cat
 subjects = {"python","java","C++","python","javascript","java","python","java","C++","C"}
 print("Total classrooms needed:",len(subjects))
 
+
 # 3. WAP to enter marks of 3 sub from user and store them in a dictionary. start with an empty dictionary &
 # add one by one. use subject name as key & marks as value
 
@@ -161,17 +162,16 @@ print("Total classrooms needed:",len(subjects))
 # result.update({input("Enter Subject name:") : int(input("Enter marks:"))})
 # result.update({input("Enter Subject name:") : int(input("Enter marks:"))})
 # result.update({input("Enter Subject name:") : int(input("Enter marks:"))})
-
 # print(result)
+
 
 # 4.figure out way to store 9 & 9.0 as seperate values in the set
 
 # a. without using built-in data type -> one value as a string &  one as a int
 values = {"9", 9.0}
-print(values)
-# b. using built-in data types
+
+# b. using built-in data types (list or tuple)
 values = {
     ("float", 9.0),
     ("int", 9)
 }
-print(values)
